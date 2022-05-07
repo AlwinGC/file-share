@@ -1,0 +1,37 @@
+.about-container{
+    min-height: 90vh;
+    background: linear-gradient(to top,  #000428, #004e92);
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.a-sub-head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.a-box-container {
+    max-width: 500px;
+    border: 10px solid rgba(0, 0, 0, 0.3);   
+    border-radius: 25px;
+    margin: 10px 0px;
+}
+
+.a-inner-text {
+    padding: 1rem;
+    font-family: 'Roboto Mono';
+    color: rgba(255, 255, 255, 0.8);
+}
+
