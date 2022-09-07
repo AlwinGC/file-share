@@ -7,7 +7,7 @@ function Api() {
       <h3 className="api-head">Visit Github Project to know more</h3>
       <div className="api-box-container">
         <i className="fab fa-github-square"></i>
-        <a href='#' className='api-link'>Click Here To Visit</a>
+        <a href='https://github.com/AlwinGC/file-share' className='api-link'>Click Here To Visit</a>
       </div>
   </div>
   );

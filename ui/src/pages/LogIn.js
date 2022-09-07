@@ -1,4 +1,4 @@
-import React, {useReducer} from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 import './Form.css';
 
@@ -15,6 +15,9 @@ function LogIn() {
             <h2 className="head-text">Back</h2>
             <h5 className="small-text">Please log-in to continue</h5>
           </div>
+        </div>
+        <div className="form-logo">
+          <p>FILE SHARE</p>
         </div>
         <form className="form-container">
           <input type="email" placeholder="Email" className="input-data"/>

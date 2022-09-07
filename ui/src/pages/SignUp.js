@@ -15,6 +15,9 @@ function SignUp() {
             <h5 className="small-text">Please sign-up to continue</h5>
           </div>
         </div>
+        <div className="form-logo">
+          <p>FILE SHARE</p>
+        </div>
         <form className="form-container">
           <input type="text" placeholder="Username" className="input-data" />
           <input type="email" placeholder="Email" className="input-data" />

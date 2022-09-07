@@ -23,26 +23,18 @@
   
   .top-container {
     width: 100%;
-    height: 250px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0em 1.8em;
-    padding-bottom: 5em;
+    margin-bottom: 1em;
   }
   
   .back-drop {
-    width: 160%;
-    height: 550px;
+    width: 100%;
+    height: 50%;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    border-radius: 50%;
-    top: -325px;
-    left: -150px;
-    transition: all 0.7s ease;
-    transform: rotate(40deg);
-    background: rgb(0, 0, 0);
+    border-radius: 5%;
     background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 1) 20%,
@@ -53,12 +45,15 @@
     
   .head-container {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em 1.8em;
   }
   
   .head-text {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.24;
     color: #fff;
     z-index: 10;
@@ -66,12 +61,26 @@
   }
   
   .small-text {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: normal;
     color: #fff;
     z-index: 10;
     margin: 0%;
     margin-top: 10px;
+  }
+
+  .form-logo {
+    user-select: none;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    align-self: center;
+    line-height: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1%;
+    margin: 2% 0%;
   }
   
   .form-container {
@@ -166,15 +175,19 @@
     }
 
     .top-container {
-      height: 225px;
-      padding: 0em 1.5em;
-      padding-bottom: 4em;
+      height: 175px;
+    }  
+
+    .head-text {
+      font-size: 30px;
+    }
+    
+    .small-text {
+      font-size: 12px;
     }
 
-    .back-drop{
-    top: -300px;
-    left: -150px;
-    transform: rotate(110deg);
+    .form-logo {
+      font-size: 20px;
     }
 
     .form-container {
