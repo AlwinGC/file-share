@@ -21,3 +21,17 @@ File Share is a Docker application. To run the app please follow the following c
 
 
 The File share app can then be accessed on http://localhost:3000/
+
+HOMEPAGE
+![Alt Text](https://github.com/AlwinGC/file-share/blob/master/Screenshots/Homepage%201.png)
+
+![Alt Text](https://github.com/AlwinGC/file-share/blob/master/Screenshots/Homepage%202.png)
+
+ABOUT PAGE
+![Alt Text](https://github.com/AlwinGC/file-share/blob/master/Screenshots/About.png)
+
+SIGNUP PAGE
+![Alt Text](https://github.com/AlwinGC/file-share/blob/master/Screenshots/SignUp.png)
+
+LOGIN PAGE
+![Alt Text](https://github.com/AlwinGC/file-share/blob/master/Screenshots/Login.png)
